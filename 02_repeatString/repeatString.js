@@ -1,6 +1,3 @@
-let message;
-let j;
-
 const repeatString = function(message, j) {
     let output = [];
     if (j<0) {
@@ -12,8 +9,6 @@ const repeatString = function(message, j) {
         return output.join('');    
     }
 };
-
-repeatString();
 
 // Do not edit below this line
 module.exports = repeatString;
